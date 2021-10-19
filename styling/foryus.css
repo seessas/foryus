@@ -1,0 +1,110 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(201, 184, 184) ;
+    color: rgb(253, 252, 252);
+    max-width: 100%;
+   }
+   .container{
+    display: grid;
+    max-width: 100%;
+}
+
+
+
+
+.box1{
+
+grid-column-start: 2;
+grid-column-end: 10px;
+grid-row-start:auto;
+grid-row-end: 4;
+background-color: rgb(253, 252, 252);
+border: rgb(255, 255, 255) solid 15px;
+grid-template-columns: minmax(100%);
+grid-area: 2;
+grid-column: 4;
+grid-column: span 2;  }
+
+.box2{
+    grid-column-start: 2;
+  grid: column end 3px;
+  grid-row-start:auto;
+  grid-row-end: 2;
+  background-color:#f8d3d3;
+  border: rgb(202, 87, 87) solid 4px;
+  grid-area: 1;
+  
+}
+.box3{
+    grid-column-start: 2;
+    grid: column end 1px;
+    grid-row-start:auto;
+    grid-row-end: 2;
+    background-color:#f8d3d3;
+    border: solid 5px rgb(202, 87, 87);
+    grid-area: 1;
+    padding: 1px;
+}
+
+.box4{
+    grid-column-start: 1;
+    grid-column-end: 1px;
+    grid-row-start:auto;
+    grid-row-end: 1;
+    background-color: rgb(223, 204, 168);
+    border: rgb(254, 255, 255) solid 3px;
+    grid-template-columns: minmax(50%);
+    grid-area: 3;
+    grid-column: 2;
+    grid-column: span 1; 
+    padding: 60px;
+    margin: 20PX;
+    height: 70px;
+   font-size: 5px;
+   font-family: monospace;   }
+  
+  
+   .länkar{
+    background-color: rgba(126, 86, 86, 0.13);
+    border: rgb(252, 252, 252) solid 6px;
+    padding: 20px;
+    width: 1220px;
+
+}
+   
+
+
+.link3{
+   position: absolute;
+   left: 800px;
+   top: 228px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 23px;
+  color: lightblue;
+
+}
+
+.link2{
+   position: absolute;
+   left: 600px;
+   top: 228px;
+   font-size: 23px;
+   color: lightblue;
+}
+
+.link1{
+   position: absolute;
+   left: 400px;
+   top: 228px;
+   font-size: 23px;
+   color: lightblue;
+}
+
+footer {
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 19px;
+   background-color: rgba(141, 60, 33, 0.288);
+   color: rgb(78, 75, 75);
+ }
+

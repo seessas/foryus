@@ -1,0 +1,118 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:rgb(201, 184, 184) ;
+  color: rgb(253, 252, 252);
+  max-width: 100%;
+ }
+ 
+  
+
+  .container{
+      display: flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      flex-flow:wrap;
+      flex-flow:wrap;
+      align-items:flex-end;
+      align-content:flex-end;
+      gap: 100px;
+      gap: 100px 201px; 
+      row-gap: 100px;
+      column-gap: 20opx;
+      align-self:center;
+      margin: 1000px;
+  }
+
+  
+
+
+    .kolum2{
+      border: grey solid 5px;
+      padding: 10px;
+      order: 1; 
+      flex-grow: 5px;
+      flex-shrink: 5;
+      flex-basis: auto;
+      flex:auto;
+     background-color: transparent;
+
+    }
+
+    .kolum3{
+      border: solid grey 5px;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      order: 1; 
+      flex-grow: 2;
+      flex-shrink: 3;
+      flex-basis: 0px;
+      flex:auto;
+      width: 250px;
+    
+    }
+
+    
+
+    .länkar{
+      background-color: rgba(126, 86, 86, 0.13);
+      border: rgb(252, 252, 252) solid 6px;
+      padding: 20px;
+      width: 1220px;
+
+      }
+
+      .link3{
+        position: absolute;
+        left: 800px;
+        top: 228px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 23px;
+       color: lightblue;
+     
+    }
+
+    .link2{
+        position: absolute;
+        left: 600px;
+        top: 228px;
+        font-size: 23px;
+        color: lightblue;
+    }
+
+    .link1{
+        position: absolute;
+        left: 400px;
+        top: 228px;
+        font-size: 23px;
+        color: lightblue;
+    }
+
+
+  
+
+  footer {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 19px;
+    background-color: rgba(141, 60, 33, 0.288);
+    color: rgb(78, 75, 75);
+  }
+
+  .rubrik{
+    text-align: center;
+    text-decoration: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+  }
+
+  .text1{
+    text-align: center;
+    text-transform: lowercase;
+    font-weight:lighter;
+    font-style: italic;
+    color: rgb(2, 2, 2);
+    font-variant: normal;
+   
+  }
+
+
